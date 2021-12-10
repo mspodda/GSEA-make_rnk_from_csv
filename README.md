@@ -1,5 +1,5 @@
 # make_rnk_from_csv 
-  make .rnk file (ie. for GSEA preranked) from csv files
+R function to make .rnk file (ie. for GSEA preranked) from csv files
   
 Input -> csv file format 
 
