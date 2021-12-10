@@ -10,5 +10,3 @@ y<-mySheet[,c(column_names_gene, column_names_logFC)]
 
 write.table(y,file="expression.rnk",quote=F,sep="\t",row.names=F)
 }
-
-make_rnk_from_csv("lista_1070_geni_A375.csv", "\t", "entrezid","log2FoldChange")
